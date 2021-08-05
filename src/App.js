@@ -4,18 +4,18 @@ function App() {
   return (
     <div className="App">
       <header>
-        <div class="container"></div>
+        <div className="container"></div>
       </header>
       <main>
-        <div class="container text-center">
-          <h1 class="logo">Cyberphunk</h1>
-          <div class="tagline">Bespoke cyber solutions</div>
+        <div className="container text-center">
+          <h1 className="logo">Cyberphunk</h1>
+          <div className="tagline">Bespoke cyber solutions</div>
         </div>
       </main>
       <footer>
-        <div class="container"></div>
+        <div className="container"></div>
       </footer>
-      <div class="stroke"></div>
+      <div className="stroke"></div>
     </div>
   );
 }
