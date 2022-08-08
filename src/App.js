@@ -1,3 +1,6 @@
+import {ReactComponent as LogoIcon} from './assets/svg/logo-icon.svg';
+import {ReactComponent as LogoText} from './assets/svg/logo-text.svg';
+
 function App() {
   return (
     <div className="App">
@@ -6,12 +9,14 @@ function App() {
       </header>
       <main>
         <div className="container text-center">
-          <h1 className="logo">Cyberphunk</h1>
-          <div className="tagline">Bespoke cyber solutions</div>
+          <LogoText className="logo-text"/>
+          <h1 className="tagline">Bespoke cyber solutions</h1>
         </div>
       </main>
       <footer>
-        <div className="container"></div>
+        <div className="container">
+          <LogoIcon className="logo-icon"/>
+        </div>
       </footer>
       <div className="stroke"></div>
     </div>

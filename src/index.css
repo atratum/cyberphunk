@@ -74,6 +74,9 @@ footer {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+footer {
+  text-align: right;
+}
 .container {
   padding-right: 2rem;
   padding-left: 2rem;
@@ -83,11 +86,9 @@ main {
   justify-content: center;
   align-items: center;
 }
-.logo {
-  font-style: italic;
-  text-transform: lowercase;
-}
 .tagline {
+  color: var(--colorL1);
+  font-size: 1.25em;
   text-transform: uppercase;
   letter-spacing: .4em;
 }
@@ -98,4 +99,13 @@ main {
 }
 .text-center {
   text-align: center;
+}
+.logo-text {
+  height: 2rem;
+}
+.logo-icon {
+  height: 2rem;
+}
+svg {
+  max-width: 100%;
 }
